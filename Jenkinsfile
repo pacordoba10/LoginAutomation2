@@ -1,10 +1,10 @@
 pipeline {
     agent any
     stages {
-        stage('Construir') {
+        stage('Build') {
 
             steps {
-                bat 'make'
+                bat 'set'
 
         }
     }
