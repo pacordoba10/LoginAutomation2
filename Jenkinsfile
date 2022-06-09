@@ -1,11 +1,10 @@
 pipeline {
     agent any
-
     stages {
-        stage('Do Things') {
+        stage('Construir') {
             steps {
-                 sh 'echo w00t!'
-            }
+                sh 'make'
+
         }
     }
 }
