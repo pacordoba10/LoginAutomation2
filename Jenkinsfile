@@ -8,6 +8,23 @@ pipeline {
 
         }
     }
+
+        stage('Test') {
+
+                steps {
+                    bat 'set check'
+
+            }
+        }
+
+        stage('Deploy') {
+
+                        steps {
+                            bat 'set publish'
+
+                    }
+                }
+
 }
 
 }
