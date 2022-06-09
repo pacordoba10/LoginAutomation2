@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Construir') {
             steps {
-                sh 'make'
+                bat 'make'
 
         }
     }
