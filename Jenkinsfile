@@ -12,7 +12,7 @@ pipeline {
         stage('Test') {
 
                 steps {
-                    bat 'set check'
+                    bat 'check'
 
             }
         }
@@ -20,7 +20,7 @@ pipeline {
         stage('Deploy') {
 
                         steps {
-                            bat 'set publish'
+                            bat 'publish'
 
                     }
                 }
