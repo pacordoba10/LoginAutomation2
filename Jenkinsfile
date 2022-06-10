@@ -9,22 +9,6 @@ pipeline {
         }
     }
 
-        stage('Test') {
-
-                steps {
-                    bat 'check'
-
-            }
-        }
-
-        stage('Deploy') {
-
-                        steps {
-                            bat 'publish'
-
-                    }
-                }
-
-}
+     }
 
 }
